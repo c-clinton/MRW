@@ -92,29 +92,6 @@
 
 
 </div>
-<div>
-<div class="row" id = "subContent">
-  <h1 class="hidden">Sub images</h1>
-  <div class="small-12 large-12   trailer columns">
-    <h2>Trailers</h2>
-  </div>
-  
-  <?php
-  
-  if(!is_string($getMovies)){
-		while($row = mysqli_fetch_array($getMovies)){
-			
-			echo "<div class=\"small-pull-3 medium-pull-0 small-12 large-4   columns\">
-    <video width=\"300\" controls class=\"img-responsive\"> <source src=\"trailers/{$row['movies_trailer']}\"   type=\"video/mp4\" alt=\"{$row['movies_title']}\"></video>
-  </div>";
-			}
-	}else{
-		echo "<p>{$getMovies}</p>";
-	}
-	
-?>
-
-</div>
 </div>
 </div>
 

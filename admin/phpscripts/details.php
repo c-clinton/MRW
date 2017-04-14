@@ -25,7 +25,13 @@
 					echo "<p>{$row['movies_storyline']}</p>";
 					echo "<p>{$row['movies_runtime']}</p>";
 					echo "<h2>Trailer:</h2>"; 
-					echo "<video width=\"600\" controls class=\"img-responsive\"> <source src=\"trailers/{$row['movies_trailer']}\"   type=\"video/mp4\" alt=\"{$row['movies_title']}\"></video>";
+					echo "<video width=\"600\" id=\"vid\" class=\"img-responsive\"> <source src=\"trailers/{$row['movies_trailer']}\"   type=\"video/mp4\" alt=\"{$row['movies_title']}\"></video><div class=\"video-controls\">
+    <button type=\"button\" class=\"play-pause\">Play</button>
+    <input type=\"range\" class=\"seek\" value=\"0\">
+    <button type=\"button\" class=\"mute\">Mute</button>
+    <input type=\"range\" class=\"volume\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\">
+    <button type=\"button\" class=\"fullscreen\">Full-Screen</button>
+  </div>";
 					
 					echo "<div id=\"commentform\"> <form method='post' action=\"\" onsubmit=\"return sendPost();\">
 <textarea id=\"comment\" name=\"comment\" placeholder=\"Write Your Comment Here.....\"></textarea>

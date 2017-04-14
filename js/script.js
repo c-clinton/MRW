@@ -58,7 +58,13 @@ $(document).ready(function(){
 		
 		 $.get("admin/phpscripts/details.php", {term: this.id}).done(function(data){
 			$("#resultstitle").css("display", "none");
-			content.html(data);	
+			content.html(data);
+			var script = document.createElement('script'); 
+			script.type = 'application/javascript'; 
+			script.src = 'js/vidcontrols.js'; 
+			document.head.appendChild(script);
+ 
+
 		 });
 		
 		});
@@ -127,5 +133,8 @@ var comments = document.querySelector("#comments");
 
 return false;
 }
+
+
+
 
 
