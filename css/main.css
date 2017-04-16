@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	font-family: "helvetica";
+	background-color: #ffe8bf;
+}
+.wrapper{
+
+overflow: hidden;
+background-color: #ffe8bf;
+}
+.title-bar
+{
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+
+.title-bar .menu-icon
+{
+    margin-right: 0rem;
+}
+
+.menu-icon::after
+{
+    background: #000;
+    box-shadow: 0 7px 0 #000, 0 14px 0 #000;
+}
+
+.menu-icon:hover::after
+{
+    background: #000;
+    box-shadow: 0 7px 0 #000, 0 14px 0 #000;
+}
+
+#mainNav
+{
+	list-style-type: none;
+	text-align: center;
+	background-color: #800000;
+}
+
+#mainNav li a
+{
+	background-color: #800000;
+	display: block;
+	color: #b1b9a0;
+}
+
+#mainNav li
+{
+	background-color: #800000;
+	color: #b1b9a0;
+}
+
+#mainNav li a:hover
+{
+	background-color: #800000;
+	color:#fff;
+}
+
+#reccomendations
+{
+	text-align: center;
+	background-color: #800000;
+	display: block;
+	color: #b1b9a0;
+}
+
+#imges
+{
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+@media screen and (min-width: 40em) {}
+
+@media screen and (min-width: 64em) {
+
+
+
+#mainNav
+{
+	margin-top: 10px;
+	background-color: #800000;
+	padding: 5px 5px 5px 5px;
+}
+
+#mainNav li
+{
+	display: inline;
+	margin:25px;
+	background-color: #800000;
+	color: #b1b9a0;
+}
+
+#mainNav li a
+{
+	background-color: #800000;
+	display: inline;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+	color: #b1b9a0;
+}
+
+#mainNav li a:hover
+{
+	color: #ffffff;
+	background-color: #800000;
+}
+
+}
