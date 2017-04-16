@@ -34,10 +34,11 @@
                   </ul>
                   </div>
             </nav>
-                           <div class="small-12 large-centered large-12 input-group columns">
+             <div class="small-12 large-centered large-12 input-group columns">
             <label for="search" class="input-group-label">Search</label>
       <input name="search" id="search" type="text" class="input-group-field">
       <div class="result"></div>
+      </div>
 
 </header>
 
@@ -101,6 +102,7 @@
       <a href="https://www.pinterest.com/" id="pinterest">pinterest</a>
     </li>
   </ul>
+</div>
 </div>
 </div>
 </div>

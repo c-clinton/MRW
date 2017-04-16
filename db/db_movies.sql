@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 13, 2017 at 08:34 AM
+-- Generation Time: Apr 16, 2017 at 03:18 AM
 -- Server version: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -239,48 +239,6 @@ CREATE TABLE `tbl_comments` (
   `comment_text` varchar(800) NOT NULL,
   `comment_movie` varchar(150) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `tbl_comments`
---
-
-INSERT INTO `tbl_comments` (`comment_id`, `comment_username`, `comment_timestamp`, `comment_text`, `comment_movie`) VALUES
-(1, 'doot', '2017-04-26 00:00:00', 'doot', ''),
-(2, 'er4t5ret', '2017-04-11 21:46:07', 'retre5ty', ''),
-(3, 'eferwf', '2017-04-11 21:46:19', 'fdssredf', ''),
-(4, 'rewtgfr', '2017-04-11 21:46:52', 'dfrg', 'tremors'),
-(5, 'r4etre4t', '2017-04-11 21:50:47', 'ewrtfe4', ''),
-(6, 'retre', '2017-04-11 21:51:57', 'rge', ''),
-(7, 'boop', '2017-04-11 21:54:59', 'BOOP', ''),
-(8, 'rtget', '2017-04-11 22:02:36', 'erfgegf', ''),
-(9, 'ewrt', '2017-04-11 22:03:48', 'ewrew', ''),
-(10, 'YAY', '2017-04-11 22:03:54', 'WEEE', ''),
-(11, 'OMG YASS BETCH YASS', '2017-04-11 22:04:05', 'YASSSS', ''),
-(12, 'WOOO', '2017-04-11 22:04:15', 'SPA FUCKERS', ''),
-(13, 'efewr', '2017-04-11 22:18:57', 'ewfewf', 'tremors'),
-(14, 'rt4r53et', '2017-04-11 22:19:10', 'efgrewtg', ''),
-(15, 'erwtfwe4t', '2017-04-11 22:22:30', 'ewfewrf', 'tremors'),
-(16, 'sfsfdesdef', '2017-04-11 22:26:08', 'dfdfsf', 'Tremors'),
-(17, 'doooot', '2017-04-11 22:34:54', 'fuck you', 'Tremors'),
-(18, 'weee', '2017-04-11 22:39:22', 'weee', 'Tremors'),
-(19, 'boink', '2017-04-11 22:40:01', 'this movie sucked', 'Transformers'),
-(20, 'sdfgsfg', '2017-04-11 22:40:21', 'weeeeee', 'Tremors'),
-(21, 'test', '2017-04-11 22:41:23', 'boop', 'Transformers'),
-(22, 'doot', '2017-04-11 22:42:31', 'boink', 'Transformers'),
-(23, 'test', '2017-04-11 22:43:57', 'test', 'Tremors'),
-(24, 'test', '2017-04-11 22:44:07', 'test', 'Transformers'),
-(25, 'doop', '2017-04-11 22:46:22', 'boop', 'Transformers'),
-(26, 'regteryh', '2017-04-11 22:46:26', 'dsfgreg', 'Transformers'),
-(27, 'regretyg', '2017-04-11 22:46:30', 'edfgrfseg', 'Transformers'),
-(28, 'ewrew4r', '2017-04-13 03:06:48', 'ewfewr', 'Tremors'),
-(29, 'doot', '2017-04-13 03:14:29', 'doot', 'Tremors'),
-(30, 'weeee', '2017-04-13 03:18:52', 'weeee', 'Tremors'),
-(31, 'doot', '2017-04-13 03:19:27', 'doot', 'Tremors'),
-(32, 'rewtgre', '2017-04-13 03:21:49', 'dfgrfeg', 'Tremors'),
-(33, '4er43', '2017-04-13 03:22:08', 'ewrew4r4', 'Tremors'),
-(34, 'wt44r3w', '2017-04-13 03:22:34', 'erfgrwet', 'Tremors'),
-(35, '43t345', '2017-04-13 03:24:23', 'ewfgwr4etg43qt', 'Tremors'),
-(36, 'doot', '2017-04-13 04:17:19', 'doot', 'Tremors');
 
 -- --------------------------------------------------------
 
@@ -642,7 +600,7 @@ ALTER TABLE `tbl_cat`
 -- AUTO_INCREMENT for table `tbl_comments`
 --
 ALTER TABLE `tbl_comments`
-  MODIFY `comment_id` smallint(5) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
+  MODIFY `comment_id` smallint(5) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=49;
 --
 -- AUTO_INCREMENT for table `tbl_director`
 --

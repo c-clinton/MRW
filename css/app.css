@@ -91,11 +91,8 @@
 .search{
  
 	height: 32px;
- 
 	padding: 5px 10px;
- 
     border: 1px solid #CCCCCC;
- 
     font-size: 14px;
  
      }
@@ -103,10 +100,7 @@
 .result{
  
     position: absolute;
- 
     z-index: 999;
- 
- 
     left: 2;
  
  
@@ -120,18 +114,13 @@
      }
  
      
-.result p{
+	.result p{
  
      margin: 0;
- 
      padding: 7px 10px;
- 
      border: 1px solid #CCCCCC;
- 
      border-top: none;
- 
      cursor: pointer;
- 
  	 background-color: #ffffff;
  
      }

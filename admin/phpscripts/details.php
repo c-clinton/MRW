@@ -37,7 +37,7 @@
     <input type=\"range\" class=\"volume small-3 medium-2 large-3  large-push-3 columns\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\">
     <button type=\"button\" class=\"fullscreen small-3 medium-3  columns\"><img src=\"images/icons/fullscreen.png\" alt=\"fullscreen\"></button>
   </div></div></div>";
-					echo "<div id=\"commentform\"> <h2>Write A Review</h2><form method='post' action=\"\" onsubmit=\"return sendPost();\">
+					echo "<div id=\"commentform\"> <h2>Write A Review</h2><form method='post' action=\"\" onsubmit=\"return sendpost();\">
 					<input type=\"text\" id=\"username\" name=\"name\" placeholder=\"Your Name\">
 <br>
 					<textarea id=\"comment\" name=\"comment\" placeholder=\"Write Your Comment Here.....\"></textarea>
