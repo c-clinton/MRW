@@ -143,7 +143,7 @@ function vidcontrols() {
   var play = document.querySelector('.play-pause');
   var mute = document.querySelector('.mute');
   var fullScreen = document.querySelector('.fullscreen');
-  var video = document.querySelector('iframe');
+  var video = document.querySelector('video');
   var seek = document.querySelector('.seek');
   var volume = document.querySelector('.volume');
 
@@ -176,7 +176,7 @@ function playpause(){
   } else {
 
     video.pause();
-    play.innerHTML = "Play";
+    play.innerHTML = "<img src=\"images/icons/play.png\" alt=\"play\">";
   }
 }
 
@@ -187,11 +187,11 @@ function mutevid(){
    video.muted = true;
 
 
-    mute.innerHTML = "<img src=\"images/icons/volume.png\" alt=\"unmute\">";
+    mute.innerHTML = "<img src=\"images/icons/mute.png\" alt=\"unmute\">";
   } else {
 
    video.muted = false;
-   mute.innerHTML = "<img src=\"images/icons/mute.png\" alt=\"mute\">";
+   mute.innerHTML = "<img src=\"images/icons/volume.png\" alt=\"mute\">";
   }
 }
 
@@ -231,8 +231,4 @@ function volumeadjust() {
 }
 
 }
-
-
-
-
 

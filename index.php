@@ -26,47 +26,48 @@
                 <div id="main-menu">
                   <ul id="mainNav">
                     <li><a href="#" id="home">Home</a></li>
-                    <li><a href="models.html">SUGGESTIONS</a></li>
-                    <li><a href="features.html">TRAILERS</a></li>
 					<li><a href="#" class="filter" id="action">Action</a></li>
                     <li><a href="#" class="filter"  id="comedy">Comedy</a></li>
 					<li><a href="#" class="filter"  id="family">Family</a></li>
 					<li><a href="#" class="filter" id="horror">Horror</a>
 					</li>
                   </ul>
-                   <div class="small-12 large-12 input-group columns">
-      <label for="search" class="input-group-label">Search</label>
+                  </div>
+            </nav>
+                           <div class="small-12 large-centered large-12 input-group columns">
+            <label for="search" class="input-group-label">Search</label>
       <input name="search" id="search" type="text" class="input-group-field">
       <div class="result"></div>
-    </div>
-          <div class="small-12 large-12 results columns">
-    </div>
-                </div>
-            </nav>
+
 </header>
-   
+
 <div id="homesection" class="row small-collapse large-uncollapse">
   <div class="small-3  large-12  columns" id="imgWrapper">
        <h1 class="hidden">images</h1>
     <div class="imgSlider"><img src="images/img1.jpg" alt="img1"></div>
-    <div class="imgSlider"><img src="images/img2.jpg" alt="img1"></div>
-    <div class="imgSlider"><img src="images/img3.jpg" alt="img1"></div>
-    <div class="imgSlider"><img src="images/img4.jpg" alt="img1"></div>
+    <div class="imgSlider"><img src="images/img2.jpg" alt="img2"></div>
+    <div class="imgSlider"><img src="images/img3.jpg" alt="img3"></div>
+    <div class="imgSlider"><img src="images/img4.jpg" alt="img4"></div>
     </div>
-    <div class="small-12 large-12 columns">
+    <div class="small-12 large-12 columns" id="reccomendations">
       <h2>Suggested Movies</h2>
-    </div>
-    <div class="row" id="reccomendations">
 
-  <div class="small-4 large-6  columns">
+    <div class="row" id="imges">
+   
+<div class="small-6 large-3 columns">
     <img src="images/prdt1.png"  alt="prdtimg">
-
    </div>
-  <div class="small-4 large-6 columns">
+  <div class="small-6 large-3 columns">
     <img src="images/prdt2.png"  alt="prdtimg">
-
   </div>
+  <div class="small-6 large-3 margin columns">
+    <img src="images/prdt3.png"  alt="prdtimg">
+   </div>
+   <div class="small-6 large-3 margin columns">
+     <img src="images/prdt4.png"  alt="prdtimg">
+    </div>
 
+</div>
 
 </div>
 </div>

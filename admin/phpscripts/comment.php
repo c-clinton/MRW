@@ -16,10 +16,10 @@ $display = mysqli_query($link, $select);
 
 if($row = mysqli_fetch_array($display))
 {
-echo "<div class=\"comment_div\">
-<p class=\"name\">Posted By:{$row['comment_username']}</p>
-<p class=\"comment\">{$row['comment_text']}</p>
-<p class=\"time\">{$row['comment_timestamp']}</p>
+echo "<div class=\"comment-div userinfo row\">
+<p class=\"name small-3 small-push-3 columns\">{$row['comment_username']}</p>
+<p class=\"time small-4 small-pull-2 columns\">{$row['comment_timestamp']}</p></div>
+<p class=\"comment commenttext text-center\">{$row['comment_text']}</p>
 </div>";
 
 }

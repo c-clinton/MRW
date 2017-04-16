@@ -2,12 +2,13 @@
 /* CSS Document */
 body
 {
-	font-style: "helvectica";
+	font-family: "helvetica";
+	background-color: #ffe8bf;
 }
 .wrapper{
 
-overflow: hidden;	
-	
+overflow: hidden;
+background-color: #ffe8bf;
 }
 .title-bar
 {
@@ -56,6 +57,20 @@ overflow: hidden;
 {
 	background-color: #800000;
 	color:#fff;
+}
+
+#reccomendations
+{
+	text-align: center;
+	background-color: #800000;
+	display: block;
+	color: #b1b9a0;
+}
+
+#imges
+{
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
 
 @media screen and (min-width: 40em) {}
