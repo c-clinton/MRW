@@ -1,6 +1,4 @@
-
-
-    <?php
+ <?php
 
     require('connect.php');
 
@@ -18,10 +16,10 @@
 
                 while($row = mysqli_fetch_array($result)){
 					
-					echo "<div class=\"small-12 columns\">";
-                    echo "<p>{$row['movies_title']}</p>";
-					echo "<a href=\"#\" class=\"detailsbut\" id=\"{$row['movies_id']}\">Details</a>";
-					echo "</div>";
+				echo "<div class=\"small-12 columns\">";
+                echo "<p>{$row['movies_title']}</p>";
+				echo "<a href=\"#\" class=\"detailsbut\" id=\"{$row['movies_id']}\">Details</a>";
+				echo "</div>";
 
 				}
             } else{
@@ -32,7 +30,7 @@
 
         } else{
 
-            echo "ERROR: Could not execute query. Please contact web admin.";
+           		echo "ERROR: Could not execute query. Please contact web admin.";
 
         }
 
@@ -40,5 +38,5 @@
 	
     mysqli_close($link);
 
-    ?>
+ ?>
 
